@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>HTML, CSS and SASS Boilerplate</title>
-    <meta
-      name="description"
-      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <div class="main">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML, CSS and SASS Boilerplate</title>
+  <meta name="description" content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <div class="main">
+    <form>
+      <div>
+        <input class="input" name="ccname" type="text" placeholder="Your Name" autocomplete="John Adams"  />
+      </div>
+      <div>
+        <input class="input" name="cardnumber" type="number" autocomplete="1111 1111 1111 1111" placeholder="xxxx xxxx xxxx xxxx">
+      </div>
+      <div>
+        <input class="input" name="cvc" type="number" placeholder="xxx" autocomplete="123"  />
+      </div>
+      <div>
+        <input class="input" name="cc-exp" type="number" placeholder="MM / YY" autocomplete="05 / 23"/>
+      </div>
       <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
-    </div>
-  </body>
+      <button class="button" type="submit">Boom?</button>
+    </form>
+  </div>
+</body>
+
 </html>
